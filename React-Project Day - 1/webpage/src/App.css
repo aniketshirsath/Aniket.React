@@ -1,0 +1,56 @@
+header
+{
+    background-color: rgb(21, 20, 20); 
+    color: white;
+}
+body
+{
+    background: linear-gradient(rgba(255, 255, 255, 0.81),rgba(255, 255, 255, 0.695)),url('https://wallpapercave.com/wp/wp8834081.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+.footer {
+  color: #fff;
+  padding: 15px 0;
+}
+
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+footer ul {
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  footer ul li:hover {
+    background-color: #495057;
+  }
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin: 0 5px;
+}
