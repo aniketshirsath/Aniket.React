@@ -6,8 +6,8 @@ function Content() {
       <section className="container my-5">
         <div className="row">
           <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
-            <h1>Brand Salman Khan</h1>
-            <p style={{textAlign: 'justify'}}>
+            <h1 style={{fontSize:50}}>Brand Salman Khan</h1>
+            <p style={{textAlign: 'justify', lineHeight:'2'}}>
               Founded by the fitness enthusiast Salman Khan himself, SK-27 strives to provide affordable gyms with extensive expertise and state-of the art equipment. With the highest fan following as the fitness icon, Salman Khan inspires a wide range of audience with more people opting to become healthier & fitter.
             </p>
           </div>
