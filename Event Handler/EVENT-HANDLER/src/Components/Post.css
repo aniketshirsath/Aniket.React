@@ -1,0 +1,47 @@
+  .App {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+  }
+
+  button {
+      background-color: rgb(67, 202, 255);
+      color: black;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-bottom: 20px;
+      transition: all 0.3s;
+  }
+
+  button:hover {
+    background-color: rgb(232, 238, 240);
+    }
+
+  .posts-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+  }
+
+  .post {
+      border: 1px solid aqua;
+      border-radius: 5px;
+      padding: 20px;
+      width: 60%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .post-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+  }
+
+  .post-body {
+      font-size: 14px;
+      color: #555;
+  }
