@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/7846476/pexels-photo-7846476.jpeg?cs=srgb&dl=pexels-sanket-barik-2808574-7846476.jpg&fm=jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+form {
+  background-color: rgba(255, 255, 255, 0.079);
+  border-radius: 10px;
+  padding: 80px;
+  box-shadow: 10px 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 500px;
+}
+div {
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0);
+}
+button {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(26, 119, 156, 0.984);
+}
+#grade
+{
+  background-color: rgba(0, 0, 0, 0.767);
+}
