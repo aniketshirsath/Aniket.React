@@ -16,7 +16,7 @@ console.log(theme)
         <Navbar />
         <Midsection />
       </div>
-        <Button />
+      <Button />
     </>
     
   )
