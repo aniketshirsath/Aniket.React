@@ -6,7 +6,7 @@ import DeleteProduct from './DeleteProduct';
 const ProductList = () => {
 
   const [value, setValue] = useState([]);
-  const [category, setCategory] = useState(`men's clothing`);
+  const [category, setCategory] = useState('electronics');
   const [order, setOrder] = useState("asc");
   const [page, setPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
@@ -63,7 +63,7 @@ const ProductList = () => {
               <select className='form-control mb-3 animated-select ms-2' onChange={setCategoryData}>
                 <option value="">Select your category</option>
                 <option value="men's clothing">Men's clothing</option>
-                <option value="jewelry">Jewelry</option>
+                <option value="jewelery">Jewelry</option>
                 <option value="electronics">Electronics</option>
                 <option value="women's clothing">Women's clothing</option>
               </select>
