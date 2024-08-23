@@ -17,18 +17,11 @@ const Loginpage = () => {
         .catch((err) => console.log(err));
     };
   return (
-    <div>
-      <Navbar/>
-      <div className="mt-5 pt-5">
-      <GoogleButton className='' onClick={handleLogin}/>
-      </div>
-      {user && (
-        <div className="user-info mt-5 text-center">
-              <img src={user.photoURL} alt="User Avatar" style={{borderRadius:"50%"}} />
-          <h2 >Welcome, {user.displayName}</h2>
-          <p>Email: {user.email}</p>
-        </div>
-      )}
+    <div className='bgimg'> 
+    <Navbar/>
+    <div className='googlebtn' style={{marginLeft:'41%',marginTop:'18%'}}>
+    <GoogleButton className='' onClick={handleLogin}/>
+    </div>
     </div>
   )
 }

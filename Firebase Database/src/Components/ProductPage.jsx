@@ -13,7 +13,7 @@ const Productpage = () => {
          <div className="d-flex flex-wrap mt-5 pt-5">
        {
           data.map((el) => (
-            <div className="col-3" key={el.id} >
+            <div className="container col-4" key={el.id} >
               <img src={el.image} alt="" className='h-50 w-75' />
               <h5>{el.title}</h5>
               <p>{el.price}</p>

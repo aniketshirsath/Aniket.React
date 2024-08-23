@@ -1,0 +1,9 @@
+.bgimg{
+    background:linear-gradient(0deg, rgba(0,0,0,0.41985294117647056) 100%, rgba(253,187,45,1) 100%),url('https://assets.wego.com/image/upload/v1611848131/country-pages/se.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: absolute;
+    width: 100%;   
+}
